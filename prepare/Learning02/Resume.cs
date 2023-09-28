@@ -2,8 +2,8 @@ using System;
 
 public class Resume
 {
-    public string name;
-    public List<Job> jobs = new List<Job>();
+    public string name {get; set;}
+    public List<Job> jobs {get; set;} = new List<Job>(); 
 
     public void Display()
     {

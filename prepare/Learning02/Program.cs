@@ -6,25 +6,25 @@ class Program
     {
         Job FirstJob = new Job();
         FirstJob.JobTitle = "Data Analyst";
-        FirstJob.company = "Google";
+        FirstJob.Company = "Google";
         FirstJob.StartYear = 2003;
         FirstJob.EndYear = 2018;
         
         Job SecondJob = new Job();
         SecondJob.JobTitle = "Software Engineer";
-        SecondJob.company = "Microsoft";
+        SecondJob.Company = "Microsoft";
         SecondJob.StartYear = 2019;
         SecondJob.EndYear = 2022;
 
         Job ThirdJob = new Job();
         ThirdJob.JobTitle = "Manager";
-        ThirdJob.company = "Apple";
+        ThirdJob.Company = "Apple";
         ThirdJob.StartYear = 2022;
         ThirdJob.EndYear = 2023;
 
         Job FourthJob = new Job();
         FourthJob.JobTitle = "Data Scientist";
-        FourthJob.company = "Apple";
+        FourthJob.Company = "Apple";
         FourthJob.StartYear = 2018;
         FourthJob.EndYear = 2023;
 

@@ -2,13 +2,13 @@ using System;
 
 public class Job
 {
-    public string company;
-    public string JobTitle;
-    public int StartYear;
-    public int EndYear;
+    public string Company {get; set;}
+    public string JobTitle {get; set;}
+    public int StartYear {get; set;}
+    public int EndYear {get; set;}
 
     public void Display()
     {
-        Console.WriteLine($"{JobTitle} ({company}) {StartYear}-{EndYear}");
+        Console.WriteLine($"{JobTitle} ({Company}) {StartYear}-{EndYear}");
     }
 }
