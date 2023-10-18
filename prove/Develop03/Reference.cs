@@ -1,11 +1,8 @@
 using System;
-using System.ComponentModel;
-using System.Security.Cryptography.X509Certificates;
 
 class Reference
 {
     private string _reference;
-    private int _parsedReference;
 
     public string GetReference()
     {

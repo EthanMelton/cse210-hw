@@ -5,7 +5,8 @@ class Scripture
     private string _text;
     private string _randomlyHiddenText;
 
-    public string GetTextFromReference()
+
+    public string GetTextFromReference(Reference reference)
     {
 
     }
@@ -17,7 +18,7 @@ class Scripture
 
     public string ReconstructTextFromVoid()
     {
-
+        
     }
 
     public void PrintScripture()
